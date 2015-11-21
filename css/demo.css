@@ -1,0 +1,12 @@
+@import url('reset.css');
+body{
+    background:#f9f9f9 url(../images/white_texture.jpg) repeat top left;
+	color: #333;
+}
+.main{
+	position:relative;
+    width:800px;
+    margin-left: 400px;
+    margin-top: 150px;
+    text-align: center;
+}
