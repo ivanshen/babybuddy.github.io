@@ -3,9 +3,11 @@
 	<head>
 	<title>Bootstrap 101 Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Latest compiled and minified CSS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,600,400italic,600italic,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
@@ -13,20 +15,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 	</head>
 	<body ng-controller="BBController as ctrl">
-		<div>
-			<ul class="nav nav-pills nav-justified">
-			  <li ng-repeat="a in ctrl.stages track by $index" ng-class="{'active': $first}"><a data-toggle="tab" href="#month{{$index+1}}">Month {{$index+1}}</a></li>
-			</ul>
+		<div ng-view></div>
 
-			<div class="tab-content">
-			  <div id="month{{$index+1}}" class="tab-pane fade" ng-repeat="a in ctrl.stages track by $index" ng-class="{'active in': $first}">
-			    
-			  </div>
-			</div>
-			<div class="col-md-6 center-block">
-				<img src="images.png">
-			</div>
-		</div>
 	</body>
 	<script src="http://code.jquery.com/jquery.js"></script>
 

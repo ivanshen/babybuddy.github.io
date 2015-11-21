@@ -1,0 +1,76 @@
+{
+	"months": [{
+			"symptons": [ "weakness", "dizziness", "fatigue", "depression"],
+			"cause": ["In this stage, sperm fertilize the egg. The fertilized egg attaches itself to the uterine lining. As the egg grows, the lungs, heart and spinal cord begin to develop."],
+			"tips":  {
+				"food": ["Bean-P", "Fish-C", "Dried bean-F+", "Spinach-I", "Water-W"],
+				"exercise": ["Running - Do", "Walking - Do", "Swimming - Do"]
+			}
+		},
+		{
+			"symptons":[ "swelling of hands and feet", "constipation", "heartburn", "indigestion", "bloating", "heavier breasts", "goose bumps on the areola", "waistline expansion"],
+			"cause": ["The embryo begins to take the shape of a baby instead of a tadpole. By the end of of this month, the baby's all internal organs are beginning to develop"],
+			"tips": {
+				"food": [],
+				"exercise": ["Running - Do", "Walking - Do", "Swimming - Do"]
+			}
+		},
+		{
+			"symptons":["less urination time", "energetic", "inability to urinate, change in sex drive"],
+			"cause": ["The embryo becomes a fetus. The face, fingers and toes are fully formed, which makes the fetus look more human. The reproductive organs are forming, but sex of the baby cannot be determined"],
+			"tips":  {
+				"food": [],
+				"exercise": ["Running - Do", "Walking - Do", "Swimming - Do"]
+			}
+		},
+		{
+			"symptons":["change in appearance due to weight gain", "frustration","swelling and bleeding gums", "trouble sleepig", "higher blood pressure", "anemia", "nosebleeds"],
+			"cause": [],
+			"tips":  {
+				"food": [],
+				"exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
+			}
+		},
+		{
+			"symptons":["aches in abdomen", "faintness", "leg cramps", "faster heart rate", "forgetfulness", "irregularities in body temperature"],
+			"cause": ["The baby beins to move. The skin is sensitive and may respond to sounds and light. The baby's kidneys begin to function and emit urine. The immune system of baby begins to help protect illness and infection"],
+			"tips":  {
+				"food": ["Bean-P", "Milk-C+", "Dried bean-F", "Spinach-I", "Water-W++", "Sodium-S--"],
+				"exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
+			}
+		},
+		{
+			"symptons":["pain and numbness in the hands", "clumsiness", "itchy abdomen", "rectal bleeding", ""],
+			"cause": [],
+			"tips":  {
+				"food": [],
+				"exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
+			}
+		},
+		{
+			"symptons":["cramped legs and feet", "swelling hands and feet"],
+			"cause": [],
+			"tips":  {
+				"food": [],
+				"exercise": ["Running - Avoid", "Walking - Be careful", "Swimming - Suggested"]
+			}
+		},
+		{
+			"symptons":["uncomfortable", "short of breath", "tiredness", "heartburn", "indigestion", "trouble sleeping", "pelvic pressure and aches", "increasing shortness of breath"],
+			"cause": [],
+			"tips":  {
+				"food": [],
+				"exercise": ["Running - Avoid", "Walking - Be careful", "Swimming - Suggested"]
+			}
+		},
+		{
+			"symptons":["frequent visit to washroom", "easier breathing", "stronger Braxton-Hicks contraction"],
+			"cause": ["The baby is almost ready to be born and turn its head down in preparation. The baby's lungs are fully developed it continues to gain weight."],
+			"tips": {
+				"food": ["Bean-P+", "Milk-C++", "Dried bean-F", "Spinach-I++", "Water-W++","Sodium-S--"],
+				"exercise": ["Running - Avoid", "Walking - Be careful", "Swimming - Suggested"]
+			}
+		}]
+
+
+}
