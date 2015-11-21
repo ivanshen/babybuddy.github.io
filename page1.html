@@ -5,13 +5,28 @@
 
 	<div class="tab-content">
 	  <div id="month{{$index+1}}" class="tab-pane fade" ng-repeat="month in ctrl.months track by $index" ng-class="{'active in': $first}">
-	  	<h3>Symptons</h3>
-	    <ul>
-	    	<li ng-repeat="s in month.symptons">{{s}}</li>
-	    </ul>
+	  	
 	  </div>
 	</div>
-	<div class="col-md-6 center-block">
-		<img src="images.png">
+	<div class="">
+		<img src="images.png" class="baby-img">
+		<div id="sub-menu">
+			<ul class="nav nav-pills nav-justified">
+			  <li role="presentation"><a ng-click="showSymptons = !showSymptons">SYMPTONS</a></li>
+			  <li role="presentation"><a ng-click>CAUSES</a></li>
+			  <li role="presentation"><a ng-click>TIPS</a></li>
+			</ul>
+			<div ng-show="!show{{}}"></div>
+			<div class="tab-content">
+			  <li ng-repeat="s in month.symptons">{{s}}</li>
+			  </div>
+			</div>
+		</div>
+		
+		  	<!-- <h3>Symptons</h3>
+		    <ul>
+		    	<li ng-repeat="s in month.symptons">{{s}}</li>
+		    </ul> -->
+		</div>
 	</div>
 </div>

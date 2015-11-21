@@ -3,6 +3,7 @@ var browserSync = require('browser-sync').create();
 var gulp = require('gulp');
 
 
+
 gulp.task('styles', function() {
     gulp.src('*.css')
         .pipe(gulp.dest('./'))
@@ -16,11 +17,11 @@ gulp.task('default',function() {
 gulp.task('js', function () {
     return gulp.src('./js/*.js')
         // .pipe(concat('all.js'))
-        .pipe(gulp.dest('./js/'));
+        .pipe(gulp.dest('./js'));
 });
 
 gulp.task('html', function () {
-    return gulp.src('./vpTemplate.html')
+    return gulp.src('./*.html')
         .pipe(gulp.dest('./'));
 });
 
