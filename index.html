@@ -15,7 +15,7 @@
 	<body ng-controller="BBController as ctrl">
 		<div>
 			<ul class="nav nav-pills nav-justified">
-			  <li ng-repeat="a in ctrl.stages track by $index" ng-class="{'active': $first}"><a data-toggle="tab" href="#month{{$index+1}}">Month {{$index+1}}</a></li>
+			  <li ng-repeat="a in ctrl.stages track by $index" ng-class="{'active': $first}"><a data-toggle="tab" href="#month{{$index+1}}" id="">Month {{$index+1}}</a></li>
 			</ul>
 
 			<div class="tab-content">
