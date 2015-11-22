@@ -32,4 +32,8 @@ function BBController($http, $location) {
     	$location.path("/");
     }
     vm.selectedTab = 0;
+    if (window.innerWidth <= 420) {
+        vm.small = true;
+    };
+    
 };

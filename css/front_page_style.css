@@ -1,12 +1,13 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 #landing-grid {
 	text-align: center;
 }
 /* Logo */
 #logo{
-    margin-top:-45px;
-    margin-right: 10px;
-    margin-bottom: -30px;
-    width: 600px;
+	margin: 1em;
     height: auto;
     position: relative;
 }
@@ -14,9 +15,6 @@
 
 /* Grid Components */
 .ch-item {
-	width: 100%;
-	height: 100%;
-    
 	position: relative;
 	cursor: default;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -26,56 +24,61 @@
 	transition: all 0.4s ease-in-out;
 }
 
+
 .my-ch-item {
 	width: 100%;
-	height: 100%;
-    
+	height: 100%;  
 }
 
-.ch-item a {
-	text-decoration: none; color: #F5FFFA;
-}
 /* Grid Images */
 .ch-img-1 { 
 	background-image: url(/img/month1.jpg);
+	background-size: cover;
 }
 
 .ch-img-2 { 
 	background-image: url(/img/month2.jpg);
+	background-size: cover;
     
 }
 
 .ch-img-3 { 
 	background-image: url(/img/month3.jpg);
+	background-size: cover;
 }
 
 .ch-img-4{
     background-image: url(/img/month4.jpg);
+    background-size: cover;
 }
 
 .ch-img-5{
     background-image: url(/img/month5.jpg);
+    background-size: cover;
 }
 
 .ch-img-6{
     background-image: url(/img/month6.jpg);
+    background-size: cover;
 }
 
 .ch-img-7{
     background-image: url(/img/month7.jpg);
+    background-size: cover;
 }
 
 .ch-img-8{
     background-image: url(/img/month8.jpg);
+    background-size: cover;
 }
 
 .ch-img-9{
     background-image: url(/img/month9.jpg);
+    background-size: cover;
 }
 
 /* Grid Layout */
 .main{
-    width: 550px;
     margin: 0 auto;
 }
 
@@ -98,12 +101,96 @@
 }
 
 .ch-grid li {
-	width: 170px;
-	height: 170px;
 	display:inline-block;
     float: left;
 }
+@media only screen and (max-width : 420px){
+	#logo {
+		width: 60%;
+		margin-top: 1em;
+	}
+	.main {
+		position: fixed;
+		bottom: 0;
+		height: 100vw;
+	}
+	.ch-item, .ch-grid li {
+		width: calc(100vw/3);
+		height: calc(100vw/3);
+	}
+	.content-container {
+		margin-top: 0;
+	}
+	.status-imgs {
+	    width: 49px;
+	    margin-top: -53px;
+	    margin-bottom: 0;
+	}
+	#left-col .panel-heading {
+	    padding: 2px 14px !important;
+	}
+	#left-col .panel-group {
+		/*margin: 0;*/
+	}
+    .dropdown-menu li a {
+        padding: 0.27em !important;
+    }
+    #left-col h1 {
+    	margin: 0.2em;
+    }
+    #divider {
+    	margin: 0;
+	    color: white;
+	    font-size: 50px;
+    }
+    #food-list {
+    	flex-wrap: wrap;
+    	justify-content: center;
+    }
+    #food-list li {
+    	width: 32%;
+    }
+}
 
+@media only screen and (min-width : 430px){
+	#logo {
+		max-width: 300px;
+	}
+	.main {
+		position: relative;
+		width: 495px;
+	}
+	.ch-item, .ch-grid li {
+		width: 165px;
+		height: 165px;
+	}
+	.status-imgs {
+	    width: 160px;
+	}
+	#left-col .panel-heading {
+	    padding: 10px 14px !important;
+	}
+	#divider {
+		display: none;
+	}
+	.content-container {
+		width: 90%;
+		padding: 0;
+	}
+	.ch-info h3 {
+	    padding: 75px 0 0 0;
+	}
+	#food-list li {
+    	width: 80%;
+    }
+}
+
+/*@media (min-width: @screen-lg-min){
+	.main {
+		position: relative;
+		width: 495px;
+	}
+}*/
 
 /* Hover Text */
 .ch-item:hover .ch-info {
@@ -112,13 +199,14 @@
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
+    color: white !important;
 }
 
 .ch-info {
 	position: absolute;
     text-align: center;
 	width: inherit;
-	height: inherit;       
+	height: inherit;   
 	opacity: 1;
 	
 	-webkit-transition: all 0.4s ease-in-out;
@@ -141,7 +229,7 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 20px;
-	padding: 70px 0 0 0;
+	padding: 50px 0 0 0;
 	height: 140px;
 	font-family: Arial, sans-serif;
 }
@@ -154,3 +242,4 @@ h3 {
     font-size:100%;
 	font-weight:normal;
     text-align: center;
+}

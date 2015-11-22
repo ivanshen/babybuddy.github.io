@@ -10,14 +10,14 @@
 
 <div class="container-fluid content-container">
   <div class="row">
-		<div class="col-xs-6" id="left-col">
-			<img src="/img/month1.jpg" class="status-imgs">
+		<div class="col-sm-6" id="left-col">
+			<img src="/img/month{{ctrl.selectedTab+1}}.jpg" class="status-imgs">
 			<h1>{{ctrl.tabs[ctrl.selectedTab]}} MONTH</h1>
 			<uib-accordion close-others="true">
 				<div class="sub-container">
 					<uib-accordion-group heading="POSSIBLE SYMPTOMS" is-open="true" id="do-header">
 						<div class="fixed-height">
-							<ul id="food-list">
+							<ul id="symtom-list">
 								<li>
 									<img ng-src="{{ctrl.months[ctrl.selectedTab].symptoms[0]}}" class="symtom-imgs">
 								</li>
@@ -28,7 +28,7 @@
 						</div>
 
 						<div class="row">
-							<ul id="food-list">
+							<ul id="symtom-list">
 								<li>
 									<img ng-src="{{ctrl.months[ctrl.selectedTab].symptoms[2]}}" class="symtom-imgs">
 								</li>
@@ -47,21 +47,26 @@
 				</div>
 			</uib-accordion>
 		</div>
-		<div class="col-xs-6" id="right-col">
+		<h1 class="glyphicon glyphicon-chevron-down" id="divider"></h1>
+		<div class="col-sm-6" id="right-col">
 			<uib-accordion close-others="true">
-			    <uib-accordion-group heading="DOs" is-open="true" id="do-header">
+			    <uib-accordion-group heading="DOs" id="do-header" is-open="true">
 			    	<div class="fixed-height">
+						<h4>Eat Well</h4>
+				        <p>{{ctrl.months[8].tips.food.description}}</p>
+				        <ul id="food-list">
+				        	<li><img src="img/bean.png"></li>
+				        	<li><img src="img/meat.png"></li>
+				        	<li><img src="img/seeds.png"></li>
+				        	<li><img src="img/spinach.png"></li>
+				        	<li><img src="img/water.png"></li>
+				        </ul>
 						<ul>
 							<li ng-repeat="do in ctrl.months[ctrl.selectedTab].tips.do">
 								<h4>{{do.title}}</h4>
 								{{do.description}}
 							</li>
 						</ul>
-						<h4>FOOD</h4>
-				        <p>{{ctrl.months[8].tips.food.description}}</p>
-				        <ul id="food-list">
-				        	<li ng-repeat="item in ctrl.months[ctrl.selectedTab].tips.food.list" class="label label-default label-large">{{item}}</li>
-				        </ul>
 			        </div>
 			    </uib-accordion-group>
 				
@@ -74,8 +79,7 @@
 							</li>
 						</ul>
 					</div>
-			    </uib-accordion-group>
-			    
+			    </uib-accordion-group>		    
 			</uib-accordion>
 		</div>
 	</div>

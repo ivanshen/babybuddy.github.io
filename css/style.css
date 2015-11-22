@@ -67,17 +67,22 @@ body{
 
 .month-detail ul {
 }
-#food-list:nth-child(1) {
+#symtom-list:nth-child(1) {
 	margin-top: 7px;
 }
-#food-list {
+#symtom-list, #food-list {
 	display: inline-flex;
 	margin-bottom: 0;
 }
-#food-list li {
+#symtom-list li {
 	margin: 0.4em;
 }
-
+#food-list img{
+	width: 80%;
+	margin-top: 7px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 #right-col .fixed-height {
 	height: 500px;
 	overflow-y: scroll;
@@ -98,8 +103,7 @@ body{
 	text-decoration: none;
 }
 .status-imgs {
-	border-radius: 60%;
-	width: 160px;
+	border-radius: 50%;
 }
 .content-container a:hover {
 	text-decoration: none;
@@ -114,6 +118,7 @@ body{
 	border-radius: 0 !important;
 	font-size: large !important;
 	border-radius: 0 !important;
+    margin: 20px !important;
     border: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -181,6 +186,9 @@ body{
 	width: inherit;
 	margin: 0 auto;
 }
+.sub-container:nth-child(1) {
+	border-bottom: 1px solid #0CE8E5 !important;
+}
 .sub-container h4 {
 	background-color: white;
 	color: #0CE8E5;
@@ -208,7 +216,6 @@ body{
     border: 1px solid white;	
 }
 #right-col .panel-heading, #left-col .panel-heading {
-	padding: 8px 14px !important;
 	color: white;
 	font-weight: 700;
 }
@@ -247,4 +254,10 @@ body{
 }
 .symtom-imgs {
 	height: 120px;
+}
+#do-header .panel:nth-child(1) {
+	border-bottom: 1px solid #0CE8E5 !important;
+}
+.tile-container, .tile-container .ch-grid, .tile-container .ch-grid li {
+	padding: 0;
 }
