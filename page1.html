@@ -1,6 +1,6 @@
 <div>
 	<ul class="nav nav-pills nav-justified">
-	  <li ng-repeat="month in ctrl.months track by $index" ng-class="{'active': $first}"><a data-toggle="tab" href="/months/#month{{$index+1}}">Month {{$index+1}}</a></li>
+	  <li ng-repeat="month in ctrl.months track by $index" ng-class="{'active': month.selected}"><a data-toggle="tab" href="/months/#month{{$index+1}}">Month {{$index+1}}</a></li>
 	</ul>
 
 	<div class="tab-content">

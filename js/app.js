@@ -1,6 +1,6 @@
 angular.module('babyBuddy', ['ngRoute'])
 	.config(['$routeProvider', BBConfig])
-	.controller('BBController', ['$http', BBController]);
+	.controller('BBController', ['$http', '$location', BBController]);
 
 function BBConfig($routeProvider) {
     $routeProvider.
@@ -15,9 +15,13 @@ function BBConfig($routeProvider) {
 			redirectTo: '/'
 		});
 };
-function BBController($http) {
+function BBController($http, $location) {
     var vm = this;
     $http.get('pregnancy.json').success(function(data) {
     	vm.months = data.months;
     });
+    vm.selectTab = function(id) {
+    	vm.months[id].selected = true;
+    	$location.path("/months");
+    };
 };

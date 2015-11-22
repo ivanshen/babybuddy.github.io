@@ -1,76 +1,180 @@
 {
-	"months": [{
-			"symptons": [ "weakness", "dizziness", "fatigue", "depression"],
-			"cause": ["In this stage, sperm fertilize the egg. The fertilized egg attaches itself to the uterine lining. As the egg grows, the lungs, heart and spinal cord begin to develop."],
-			"tips":  {
-				"food": ["Bean-P", "Fish-C", "Dried bean-F+", "Spinach-I", "Water-W"],
-				"exercise": ["Running - Do", "Walking - Do", "Swimming - Do"]
-			}
-		},
-		{
-			"symptons":[ "swelling of hands and feet", "constipation", "heartburn", "indigestion", "bloating", "heavier breasts", "goose bumps on the areola", "waistline expansion"],
-			"cause": ["The embryo begins to take the shape of a baby instead of a tadpole. By the end of of this month, the baby's all internal organs are beginning to develop"],
-			"tips": {
-				"food": [],
-				"exercise": ["Running - Do", "Walking - Do", "Swimming - Do"]
-			}
-		},
-		{
-			"symptons":["less urination time", "energetic", "inability to urinate, change in sex drive"],
-			"cause": ["The embryo becomes a fetus. The face, fingers and toes are fully formed, which makes the fetus look more human. The reproductive organs are forming, but sex of the baby cannot be determined"],
-			"tips":  {
-				"food": [],
-				"exercise": ["Running - Do", "Walking - Do", "Swimming - Do"]
-			}
-		},
-		{
-			"symptons":["change in appearance due to weight gain", "frustration","swelling and bleeding gums", "trouble sleepig", "higher blood pressure", "anemia", "nosebleeds"],
-			"cause": [],
-			"tips":  {
-				"food": [],
-				"exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
-			}
-		},
-		{
-			"symptons":["aches in abdomen", "faintness", "leg cramps", "faster heart rate", "forgetfulness", "irregularities in body temperature"],
-			"cause": ["The baby beins to move. The skin is sensitive and may respond to sounds and light. The baby's kidneys begin to function and emit urine. The immune system of baby begins to help protect illness and infection"],
-			"tips":  {
-				"food": ["Bean-P", "Milk-C+", "Dried bean-F", "Spinach-I", "Water-W++", "Sodium-S--"],
-				"exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
-			}
-		},
-		{
-			"symptons":["pain and numbness in the hands", "clumsiness", "itchy abdomen", "rectal bleeding", ""],
-			"cause": [],
-			"tips":  {
-				"food": [],
-				"exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
-			}
-		},
-		{
-			"symptons":["cramped legs and feet", "swelling hands and feet"],
-			"cause": [],
-			"tips":  {
-				"food": [],
-				"exercise": ["Running - Avoid", "Walking - Be careful", "Swimming - Suggested"]
-			}
-		},
-		{
-			"symptons":["uncomfortable", "short of breath", "tiredness", "heartburn", "indigestion", "trouble sleeping", "pelvic pressure and aches", "increasing shortness of breath"],
-			"cause": [],
-			"tips":  {
-				"food": [],
-				"exercise": ["Running - Avoid", "Walking - Be careful", "Swimming - Suggested"]
-			}
-		},
-		{
-			"symptons":["frequent visit to washroom", "easier breathing", "stronger Braxton-Hicks contraction"],
-			"cause": ["The baby is almost ready to be born and turn its head down in preparation. The baby's lungs are fully developed it continues to gain weight."],
-			"tips": {
-				"food": ["Bean-P+", "Milk-C++", "Dried bean-F", "Spinach-I++", "Water-W++","Sodium-S--"],
-				"exercise": ["Running - Avoid", "Walking - Be careful", "Swimming - Suggested"]
-			}
-		}]
-
+    "months": [{
+            "symptons": [ "weakness", "dizziness", "fatigue", "depression"],
+            "cause": ["In this stage, sperm fertilize the egg. The fertilized egg attaches itself to the uterine lining. As the egg grows, the lungs, heart and spinal cord begin to develop."],
+            "tips":  {
+                "food": [
+                {
+                    "list": ["Bean-P", "Fish-C", "Dried bean-F+", "Spinach-I", "Water-W"], 
+                    "description": "A healthy, balanced diet will make sure that you get all the nutrients you and your developing baby need. Get yourself into good eating habits at this stage in your pregnancy. Bear in mind that you don't need extra calories in your first trimester. You'll need to avoid certain foods in pregnancy, because they might contain bacteria, parasites or toxins that could harm your baby. This includes some cheeses and unpasteurised dairy products, raw or undercooked eggs, liver and pate, and raw shellfish."}],
+                "do": [
+                    {
+                        "title": "Check before taking medicines",
+                        "description": "You need to be careful about taking medicines, even over-the-counter ones. They may be harmful to your unborn baby. That's not to say you can't have a remedy if you're unwell. But to be on the safe side, check with your doctor, midwife or pharmacist before taking medicine."
+                    },
+                    {
+                        "title": "Learn what to eat and what not to eat",
+                        "description": "A healthy, balanced diet will make sure that you get all the nutrients you and your developing baby need. Check out our having-a-baby diet and get yourself into good eating habits at this stage in your pregnancy. Bear in mind that you don't need extra calories in your first trimester. You'll need to avoid certain foods in pregnancy, because they might contain bacteria, parasites or toxins that could harm your baby. This includes some cheeses and unpasteurised dairy products, raw or undercooked eggs, liver and pate, and raw shellfish."
+                    },
+                    {
+                        "title": "Learn the danger signs",
+                        "description": "There are some pregnancy symptoms that you should never ignore. As your uterus grows you may feel mild cramps in your tummy and the odd twinge. Always check with your midwife if you are experiencing cramps, just in case. If you have cramps with bleeding, seek medical help immediately. Your GP, midwife, or your hospital's early pregnancy unit (EPU) are there to help you."
+                    },
+                    {
+                        "title": "Get as much rest as you can",
+                        "description": "It is common to feel tired or even exhausted during the first trimester. This is because your body is getting used to rapidly changing hormone levels. Get as much rest as you can, although this can be hard if you're working. Try to get to bed early at least one night a week. Even if you can't sleep until much later, relaxing with a book or soft music will help you to unwind. Turn off your phone and forget about work. Once your baby arrives, sleep will be so precious. So enjoy it while you can."
+                    },
+                    {
+                        "title": "Do gentle exercise",
+                        "description": "Regular gentle exercise can help you to cope with the physical and mental demands of being pregnant. You'll also find it easier to manage your weight gain if you stay active. Read more about how exercise can help you during pregnancy and learn which exercises are best for you to do."
+                    },
+                    {
+                        "title": "",
+                        "description": ""
+                    }
+                    ],
+                "dont": [
+                    {
+                        "title": "If you smoke, try to quit",
+                        "description":
+                        "If you smoke during pregnancy, apart from the dangers to your health, you're more at risk of miscarriage and ectopic pregnancy. The smoke you inhale can affect how your unborn baby grows, resulting in him having a low birth weight."
+                    },
+                    {
+                        "title": "Cut down on alcohol, or cut it out",
+                        "description": "We don't know for sure how much alcohol is safe for you and your baby. That's why many experts advise you to cut out alcohol completely during pregnancy, or at least for the first three months. If you do decide to drink alcohol while you are pregnant, it's best to stick to light drinking. That's no more than one or two units of alcohol, no more than once or twice a week."
+                    },
+                    {
+                        "title": "Cut down on caffeine",
+                        "description": "You can still enjoy a cup of coffee during your pregnancy. But you should limit yourself to 200mg of caffeine a day, which is two cups of instant coffee or one cup of brewed coffee. If you regularly have more than 200mg of caffeine a day during your pregnancy, it could increase your risk of miscarriage. This 200mg limit includes all sources of caffeine, so as well as coffee you'll need to count teas (including green tea), cola, energy drinks and chocolate."
+                    }
+                ]
+            }
+        },
+        {
+            "symptons":[ "swelling of hands and feet", "constipation", "heartburn", "indigestion", "bloating", "heavier breasts", "goose bumps on the areola", "waistline expansion"],
+            "cause": ["The embryo begins to take the shape of a baby instead of a tadpole. By the end of of this month, the baby's all internal organs are beginning to develop"],
+            "tips": {
+                "food": [],
+                "do":[],
+                "dont":[]
+            }
+        },
+        {
+            "symptons":["less urination time", "energetic", "inability to urinate, change in sex drive"],
+            "cause": ["The embryo becomes a fetus. The face, fingers and toes are fully formed, which makes the fetus look more human. The reproductive organs are forming, but sex of the baby cannot be determined"],
+            "tips":  {
+                "food": [],
+                "do":[],
+                "dont":[]
+            }
+        },
+        {
+            "symptons":["change in appearance due to weight gain", "frustration","swelling and bleeding gums", "trouble sleepig", "higher blood pressure", "anemia", "nosebleeds"],
+            "cause": [],
+            "tips":  {
+                "food": [],
+                "do":[],
+                "dont":[]
+            }
+        },
+        {
+            "symptons":["aches in abdomen", "faintness", "leg cramps", "faster heart rate", "forgetfulness", "irregularities in body temperature"],
+            "cause": ["The baby beins to move. The skin is sensitive and may respond to sounds and light. The baby's kidneys begin to function and emit urine. The immune system of baby begins to help protect illness and infection"],
+            "tips":  {
+                "food": ["Bean-P", "Milk-C+", "Dried bean-F", "Spinach-I", "Water-W++", "Sodium-S--"],
+                "exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
+            }
+        },
+        {
+            "symptons":["pain and numbness in the hands", "clumsiness", "itchy abdomen", "rectal bleeding", ""],
+            "cause": [],
+            "tips":  {
+                "food": [],
+                "do":[],
+                "dont":[]
+            }
+        },
+        {
+            "symptons":["cramped legs and feet", "swelling hands and feet"],
+            "cause": [],
+            "tips":  {
+                "food": [],
+                "do":[],
+                "dont":[]
+            }
+        },
+        {
+            "symptons":["uncomfortable", "short of breath", "tiredness", "heartburn", "indigestion", "trouble sleeping", "pelvic pressure and aches", "increasing shortness of breath"],
+            "cause": [],
+            "tips":  {
+                "food": [],
+                "do":[],
+                "dont":[]
+            }
+        },
+        {
+            "symptons":["frequent visit to washroom", "easier breathing", "stronger Braxton-Hicks contraction"],
+            "cause": ["The baby is almost ready to be born and turn its head down in preparation. The baby's lungs are fully developed it continues to gain weight."],
+            "tips": {
+                "food": {
+                    "list": ["Bean-P+", "Milk-C++", "Dried bean-F", "Spinach-I++", "Water-W++","Sodium-S--"],
+                    "description": "Eating well at this stage of pregnancy is important for your health and your baby's health. Try to eat plenty of iron-rich food, which helps you to make red blood cells. Your baby will take iron stores from your body, so he won't run short, but you might. Boost your iron intake by having meals with iron sources, such as lean meat, leafy greens and fortified cereal in your diet. Have a glass of orange juice with your meals to help your body to absorb iron. See our iron slideshow for easy ways to include iron in your diet."
+                },
+                "do": [
+                    {
+                        "title":"Be aware of your baby's movements",
+                        "description": "Your baby is growing all the time, so the type of movements will change according to his size. As your baby gets bigger and stronger, you'll probably feel sharp kicks under your ribs. Every baby has a different pattern of waking and sleeping, but you'll come to know what’s normal for yours. You should feel your baby move up to and during labour. If you notice any change in his pattern, always tell your midwife or doctor straight away."
+                    },
+                    {
+                        "title":"Be aware of pregnancy symptoms you should never ignore",
+                        "description": "Are you ready for the baby? Be sure you've collected the necessary baby clothes, equipment and furniture to get you through the first few weeks, at least, after your baby is born."
+                    },
+                    {
+                        "title":"Do some stretches",
+                        "description": "Now is a good time to learn stretches that will loosen up your body ready for your baby's birth. See our slideshow of third trimester stretches to give you some ideas. Try not to worry if you find it hard to learn new exercises. Even the occasional stretch and wiggle can help you avoid pregnancy niggles such as leg cramps. Just get moving and stretching!"
+                    },
+                    {
+                        "title": "Massage your bump",
+                        "description": "As your bump grows, you may like to spend some time focusing on your unborn baby. It's perfectly safe for you or your partner to massage your bump, as long as you use gentle strokes that glide over the contours of your body. It's a lovely way for you both to feel close to your baby, and you may even feel little kicks in response to the massage strokes."
+                    },
+                    {
+                        "title": "Talk to your baby",
+                        "description": "Your baby can hear your voice now, and talking to him is a great way to start the bonding process. If having a conversation with your bump seems odd, try telling him about your daily activities, reading a book, magazine, or newspaper aloud, or singing to him."
+                    }
+                ],
+                "dont":[
+                    {
+                        "title": "Extreme exercises",
+                        "description": "Though moderate amounts of exercise is encouraged during pregnancy, exercises where your heart rate exceeds 160 bpm can result in less oxygen to the baby leading to fetal hypoxia which means that oxygen to the fetal brain is restricted and can result in brain damage."
+                    },
+                    
+                    {
+                        "title": "Massage at home",
+                        "description": "Going to spas which have trained professionals and masseuse are fine but don’t just go to any salon or get one from your maid at home for relaxation. Massage if undertaken by an untrained therapist can trigger certain uterine pressure points which can result in preterm labour contractions."
+                    },
+                    
+                    {
+                        "title": "X-rays",
+                        "description": "It is advised that X-rays should be avoided unless the abdomen is protected with a lead apron else radiation exposure to the fetus can contribute to birth defects. Radiation due to x-rays could lead to genetic damage, intrauterine death and malignancies in the fetus."
+                    },
+                    
+                    {
+                        "title": "Avoid Stress",
+                        "description": "Stress is a trigger for various problems and can be bad for both mother and baby’s health. Research has shown that babies actually experience the emotional environment of the mother. In fact, one study has also indicated that prenatal stress due to strain in relationships could also alter mental development and can make the child fearful to some extent during adulthood."
+                    },
+                    
+                    {
+                        "title": "",
+                        "description": ""
+                    },
+                    
+                    {
+                        "title": "",
+                        "description": ""
+                    }
+                ]
+            }
+        }],
+        "bibilography": ["http://www.surebaby.com/pregnancy-and-birth/first-trimester/?atext=First+Trimester+Pregnancy+Symptoms", "http://www.surebaby.com/pregnancy-and-birth/first-trimester/?atext=First+Trimester+Pregnancy+Symptoms", "http://www.nestle-family.com/nutrition-for-all/english/pregnancy-month-nine-time-to-recap-your-nutrition-tips_047603.aspx", "http://www.nestle-family.com/nutrition-for-all/english/pregnancy-month-nine-time-to-recap-your-nutrition-tips_047603.aspx", "http://www.bygpub.com/natural/pregnancy.htm"]
 
 }
