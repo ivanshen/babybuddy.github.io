@@ -17,7 +17,6 @@
     "jquery": "~2.1.1",
     "bootstrap": "~3.1.1",
     "angular-route": "1.4.x",
-    "gulp": "3.9.x",
-    "browser-sync": "2.10.x"
+    "gulp": "3.9.x"
   }
 }

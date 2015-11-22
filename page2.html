@@ -13,10 +13,33 @@
 		<div class="col-xs-6 left-col">
 			<img src="/img/month1.jpg" class="status-imgs">
 			<h1>{{ctrl.tabs[ctrl.selectedTab]}}</h1>
-			<h4>POSSIBLE SYMPTOMS</h4>
-			<ul id="food-list">
-				<li ng-repeat="item in ctrl.months[ctrl.selectedTab].symptoms"><img ng-src="{{item[1]}}" class="symtom-imgs"><span>{{item[0]}}</span></li>
-			</ul>
+			<h4 id="sym-header">POSSIBLE SYMPTOMS</h4>
+			<div class="row">
+				<ul id="food-list">
+					<li>
+						<img ng-src="{{ctrl.months[ctrl.selectedTab].symptoms[0][1]}}" class="symtom-imgs">
+						<h4>{{ctrl.months[ctrl.selectedTab].symptoms[0][0]}}</h4>
+					</li>
+					<li>
+						<img ng-src="{{ctrl.months[ctrl.selectedTab].symptoms[1][1]}}" class="symtom-imgs">
+						<h4>{{ctrl.months[ctrl.selectedTab].symptoms[1][0]}}</h4>
+					</li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul id="food-list">
+					<li>
+					<li>
+						<img ng-src="{{ctrl.months[ctrl.selectedTab].symptoms[2][1]}}" class="symtom-imgs">
+						<h4>{{ctrl.months[ctrl.selectedTab].symptoms[2][0]}}</h4>
+					</li>
+					<li>
+						<img ng-src="{{ctrl.months[ctrl.selectedTab].symptoms[3][1]}}" class="symtom-imgs">
+						<h4>{{ctrl.months[ctrl.selectedTab].symptoms[3][0]}}</h4>
+		
+					</li>
+				</ul>
+			</div>
 			<h4>WHY?</h4>
 			<p>{{ctrl.months[8].cause}}</p>
 		</div>

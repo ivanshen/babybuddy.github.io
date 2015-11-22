@@ -53,8 +53,7 @@ body {
 }
 
 #food-list {
-	display: inline-block !important;
-
+	display: inline-flex;
 }
 #food-list li {
 	margin: 0.4em;
@@ -120,13 +119,17 @@ body {
 .left-col h1 {
 	font-weight: 700;
 }
-.left-col h4 {
+#sym-header {
 	background-color: white;
 	color: #0CE8E5;
 	padding: 10px;
 	font-weight: 700;
 	width: inherit;
 	margin: 0 auto;
+}
+.left-col h4 {
+	margin-top: 0;
+	font-weight: 700;
 }
 .panel-group .panel {
     margin-bottom: 0;
@@ -164,6 +167,5 @@ body {
 	font-weight: 700;
 }
 .symtom-imgs {
-	height: 70px;
-	width: 70px;
+	height: 100px;
 }

@@ -1,6 +1,6 @@
 {
     "months": [{
-            "symptoms": [["Weakness", "img/weak.png"], ["Dizziness","img/dizz.png"], ["Fatigue", "img/fatigue.png"], ["Depression", "img/depress.png"]],
+            "symptoms": [["Weakness", "img/depress.png"], ["Dizziness","img/dizz.png"], ["Fatigue", "img/fatigue.png"], ["Depression", "img/depress.png"]],
             "cause": "In this stage, sperm fertilize the egg. The fertilized egg attaches itself to the uterine lining. As the egg grows, the lungs, heart and spinal cord begin to develop.",
             "tips":  {
                 "food": 
