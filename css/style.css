@@ -8,8 +8,12 @@ body {
 	border-radius: 0 !important;
 }
 
-.baby-img {
-
+#top-logo {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 6px 12px;
+	height: 40px;
 }
 
 #sub-menu {
@@ -62,7 +66,8 @@ body {
 }
 
 .content-container {
-	margin-top: 5em;
+	margin-top: 3em;
+	text-align: center;
 }
 
 .content-container ul {
@@ -72,8 +77,93 @@ body {
 
 .content-container a {
 	display: block;
+	text-decoration: none;
 }
-
+.status-imgs {
+	border-radius: 60%;
+	width: 175px;
+}
 .content-container a:hover {
 	text-decoration: none;
+}
+
+.content-container a:focus {
+	outline: none;
+}
+
+.dropdown-menu {
+	border-radius: 0 !important;
+	font-size: x-large !important;
+	border-radius: 0 !important;
+    margin: 2px !important;
+    border: 0 !important;
+}
+
+.myDropdown button {
+	color: #0CE8E5 !important;
+    background-color: white !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background-image: none !important;
+    margin: 4px 0 !important;
+    font-size: x-large !important;
+}
+.myDropdown button:hover, .dropdown-menu li a:hover {
+	background-image: none !important;
+    background-position: 0 !important;
+    background-color: white !important;
+    color: #0CE8E5 !important;
+}
+.left-col {
+	color: white;
+}
+.left-col h1 {
+	font-weight: 700;
+}
+.left-col h4 {
+	background-color: white;
+	color: #0CE8E5;
+	padding: 10px;
+	font-weight: 700;
+	width: inherit;
+	margin: 0 auto;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border: 0;
+}
+.panel-heading {
+	padding: 8px 14px !important;
+}
+.panel:nth-child(1) .panel-heading  {
+	background-image: none;
+	background-color: #8225A4;
+	color: white;
+}
+.panel:nth-child(2) .panel-heading  {
+	background-image: none;
+	background-color: #FD6177;
+	color: white;
+}
+.panel-title {
+	font-size: 20px !important;
+}
+.panel-body {
+	padding: 5px 15px;
+    line-height: 1.4;
+}
+.panel-body li {
+	padding-bottom: 0.8em;
+}
+.panel:nth-child(1) .panel-body h4 {
+	color: #8225A4;
+	font-weight: 700;
+}
+.panel:nth-child(2) .panel-body h4 {
+	color: #FD6177;
+	font-weight: 700;
+}
+.symtom-imgs {
+	height: 70px;
+	width: 70px;
 }

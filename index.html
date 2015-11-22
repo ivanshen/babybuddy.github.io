@@ -22,15 +22,6 @@
 	</head>
 
 	<body ng-controller="BBController as ctrl">
-		<ul class="nav nav-pills nav-justified">
-		  <li ng-repeat="month in ctrl.months track by $index"><a data-toggle="tab" ng-click="ctrl.switchTab($index)">Month {{$index+1}}</a></li>
-		</ul>
-
-		<div class="tab-content">
-		  <div id="month{{$index+1}}" class="tab-pane fade" ng-repeat="month in ctrl.months track by $index" ng-class="{'active in': month.selected}">
-		  	{{month.symptons}}
-		  </div>
-		</div>
 		<div ng-view></div>
 
 	</body>

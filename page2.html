@@ -1,20 +1,31 @@
+<div class="dropdown myDropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <span class="glyphicon glyphicon-align-justify"><span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li ng-repeat="tab in ctrl.tabs track by $index"><a  ng-click="ctrl.switchTab($index)"><div class="ch-img-1"></div><div>{{tab}}</div></a></li>
+    </ul>
+</div>
+<a ng-click="ctrl.goHome()"><img src="/img/Logo_50.png" id="top-logo"></a>
+
 <div class="container-fluid content-container">
   <div class="row">
-		<div class="col-xs-6">
-			<h1>First Month</h1>
-			<h4>Possible symptoms</h4>
+		<div class="col-xs-6 left-col">
+			<img src="/img/month1.jpg" class="status-imgs">
+			<h1>{{ctrl.tabs[ctrl.selectedTab]}}</h1>
+			<h4>POSSIBLE SYMPTOMS</h4>
 			<ul id="food-list">
-				<li ng-repeat="item in ctrl.months[8].symptoms" class="label label-default label-large">{{item}}</li>
+				<li ng-repeat="item in ctrl.months[ctrl.selectedTab].symptoms"><img ng-src="{{item[1]}}" class="symtom-imgs"><span>{{item[0]}}</span></li>
 			</ul>
 			<h4>WHY?</h4>
 			<p>{{ctrl.months[8].cause}}</p>
 		</div>
 		<div class="col-xs-6">
 			<uib-accordion close-others="true">
-			    <uib-accordion-group heading="DOs" is-open="true">
+			    <uib-accordion-group heading="DOs" is-open="true" id="do-header">
 			    	<div class="fixed-height">
 						<ul>
-							<li ng-repeat="do in ctrl.months[8].tips.do">
+							<li ng-repeat="do in ctrl.months[ctrl.selectedTab].tips.do">
 								<h4>{{do.title}}</h4>
 								{{do.description}}
 							</li>
@@ -22,18 +33,20 @@
 						<h4>FOOD</h4>
 				        <p>{{ctrl.months[8].tips.food.description}}</p>
 				        <ul id="food-list">
-				        	<li ng-repeat="item in ctrl.months[8].tips.food.list" class="label label-default label-large">{{item}}</li>
+				        	<li ng-repeat="item in ctrl.months[ctrl.selectedTab].tips.food.list" class="label label-default label-large">{{item}}</li>
 				        </ul>
 			        </div>
 			    </uib-accordion-group>
 				
 			    <uib-accordion-group heading="DON'Ts">
-			      <ul>
-			      	<li ng-repeat="dont in ctrl.months[8].tips.dont">
-			      		<h4>{{dont.title}}</h4>
-			      		{{dont.description}}
-			      	</li>
-			      </ul>
+			    	<div class="fixed-height">
+						<ul>
+							<li ng-repeat="dont in ctrl.months[ctrl.selectedTab].tips.dont">
+								<h4>{{dont.title}}</h4>
+								{{dont.description}}
+							</li>
+						</ul>
+					</div>
 			    </uib-accordion-group>
 			    
 			</uib-accordion>

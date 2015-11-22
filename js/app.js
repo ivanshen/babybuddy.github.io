@@ -17,18 +17,19 @@ function BBConfig($routeProvider) {
 };
 function BBController($http, $location) {
     var vm = this;
-    vm.tabs = ["Month 1","Month 2","Month 3","Month 4","Month 5","Month 6","Month 7","Month 8","Month 9"];
+    vm.tabs = ["FIRST MONTH","SECOND MONTH","THIRD MONTH","FOURTH MONTH","FIFTH MONTH","SIXTH MONTH","SEVENTH MONTH ","EIGHT MONTH","NINTH MONTH"];
     $http.get('pregnancy.json').success(function(data) {
     	vm.months = data.months;
     });
     vm.selectTab = function(id) {
-    	vm.months[id].selected = true;
+    	vm.selectedTab = id;
     	$location.path("/months");
     };
     vm.switchTab = function(id) {
-    	for (var i = 0; i < vm.months[i].length; i++) {
-            vm.months[i].selected = false;
-        }
-    	vm.months[id].selected = true;
+    	vm.selectedTab = id;
     };
+    vm.goHome = function() {
+    	$location.path("/");
+    }
+    vm.selectedTab = 0;
 };
