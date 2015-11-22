@@ -1,6 +1,6 @@
 {
     "months": [{
-            "symptoms": [["Weakness", "img/depress.png"], ["Dizziness","img/dizz.png"], ["Fatigue", "img/fatigue.png"], ["Depression", "img/depress.png"]],
+            "symptoms": ["img/contract.png", "img/dizz.png", "img/fat.png", "img/dep.png"],
             "cause": "In this stage, sperm fertilize the egg. The fertilized egg attaches itself to the uterine lining. As the egg grows, the lungs, heart and spinal cord begin to develop.",
             "tips":  {
                 "food": 
@@ -109,7 +109,7 @@
             }
         },
         {
-            "symptoms":["frequent visit to washroom", "easier breathing", "stronger Braxton-Hicks contraction"],
+            "symptoms":["img/feq.png", "img/contract.png"],
             "cause": "The baby is almost ready to be born and turn its head down in preparation. The baby's lungs are fully developed it continues to gain weight.",
             "tips": {
                 "food": {

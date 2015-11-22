@@ -1,5 +1,24 @@
-/*pink FD6177 purple 8225A4 blue 0CE8E5 yellow FFD200 light pink F9A2B5 light purple  9D71CC light blue 9af7e6 light yellow ffe780*/
-body {
+/*pink
+FD6177
+purple
+8225A4
+blue
+0CE8E5
+yellow
+FFD200
+light
+pink
+F9A2B5
+light
+purple
+9D71CC
+light
+blue
+9af7e6
+light
+yellow
+ffe780*/
+body{
 	font-family: 'Source Sans Pro', sans-serif !important;
 	background-image: url(/img/bg.jpg);
 }
@@ -9,11 +28,8 @@ body {
 }
 
 #top-logo {
-	position: fixed;
-	top: 0;
-	right: 0;
 	margin: 6px 12px;
-	height: 40px;
+	height: 100px;
 }
 
 #sub-menu {
@@ -51,15 +67,18 @@ body {
 
 .month-detail ul {
 }
-
+#food-list:nth-child(1) {
+	margin-top: 7px;
+}
 #food-list {
 	display: inline-flex;
+	margin-bottom: 0;
 }
 #food-list li {
 	margin: 0.4em;
 }
 
-.fixed-height {
+#right-col .fixed-height {
 	height: 500px;
 	overflow-y: scroll;
 }
@@ -80,7 +99,7 @@ body {
 }
 .status-imgs {
 	border-radius: 60%;
-	width: 175px;
+	width: 160px;
 }
 .content-container a:hover {
 	text-decoration: none;
@@ -91,11 +110,13 @@ body {
 }
 
 .dropdown-menu {
+	text-align: center !important;
 	border-radius: 0 !important;
-	font-size: x-large !important;
+	font-size: large !important;
 	border-radius: 0 !important;
-    margin: 2px !important;
     border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .myDropdown button {
@@ -106,6 +127,7 @@ body {
     background-image: none !important;
     margin: 4px 0 !important;
     font-size: x-large !important;
+    margin: 0 !important;
 }
 .myDropdown button:hover, .dropdown-menu li a:hover {
 	background-image: none !important;
@@ -113,59 +135,116 @@ body {
     background-color: white !important;
     color: #0CE8E5 !important;
 }
-.left-col {
-	color: white;
+.dropdown-menu li a {
+	color: white !important;
+	padding: 0.72em !important;
 }
-.left-col h1 {
+.dropdown-menu li:nth-child(2) {
+	background-color: #BDA3E5;
+}
+.dropdown-menu li:nth-child(3) {
+	background-color: #9D71CC;
+}
+.dropdown-menu li:nth-child(4) {
+	background-color: #8225A4;
+}
+.dropdown-menu li:nth-child(5) {
+	background-color: #FFEEA6;
+}
+.dropdown-menu li:nth-child(6) {
+	background-color: #ffe780;
+}
+.dropdown-menu li:nth-child(7) {
+	background-color: #FFD200;
+}
+.dropdown-menu li:nth-child(8) {
+	background-color: #F7D2DC;
+}
+.dropdown-menu li:nth-child(9) {
+	background-color: #F9A2B5;
+}
+.dropdown-menu li:nth-child(10) {
+	background-color: #FD6177;
+	}
+.dropdown-menu li {
+	color: white;
 	font-weight: 700;
 }
-#sym-header {
+#left-col {
+	color: white;
+}
+#left-col h1 {
+	font-weight: 700;
+}
+.sub-container {
+	background-color: #0CE8E5;
+	width: inherit;
+	margin: 0 auto;
+}
+.sub-container h4 {
 	background-color: white;
 	color: #0CE8E5;
 	padding: 10px;
 	font-weight: 700;
-	width: inherit;
-	margin: 0 auto;
+	margin-bottom: 0.5em;
 }
-.left-col h4 {
-	margin-top: 0;
+#left-col h4 {
+	padding: 0;
+	margin: 0;
 	font-weight: 700;
 }
-.panel-group .panel {
+#left-col p {
+	padding: 1em;
+	font-size: larger;
+	font-weight: 600;
+}
+#right-col .panel-group .panel, #left-col .panel-group .panel {
     margin-bottom: 0;
+    border-radius: 0;
     border: 0;
+    margin: 0;
 }
-.panel-heading {
+#left-col .panel-group .panel {
+    border: 1px solid white;	
+}
+#right-col .panel-heading, #left-col .panel-heading {
 	padding: 8px 14px !important;
+	color: white;
+	font-weight: 700;
 }
-.panel:nth-child(1) .panel-heading  {
-	background-image: none;
+#right-col .panel:nth-child(1) .panel-heading  {
 	background-color: #8225A4;
-	color: white;
 }
-.panel:nth-child(2) .panel-heading  {
-	background-image: none;
+#right-col .panel:nth-child(2) .panel-heading  {
 	background-color: #FD6177;
-	color: white;
 }
-.panel-title {
+#right-col .panel-heading, #left-col .panel-heading {
+	background-image: none;
+	background-color: white;
+	border-radius: 0;
+}
+#right-col .panel-title, #left-col .panel-title {
 	font-size: 20px !important;
 }
-.panel-body {
+#left-col .panel-body {
+	padding: 0;
+    background-color: #0CE8E5;
+}
+#right-col .panel-body {
 	padding: 5px 15px;
     line-height: 1.4;
 }
-.panel-body li {
+#right-col .panel-body li {
 	padding-bottom: 0.8em;
 }
-.panel:nth-child(1) .panel-body h4 {
+#right-col .panel:nth-child(1) .panel-body h4 {
 	color: #8225A4;
 	font-weight: 700;
 }
-.panel:nth-child(2) .panel-body h4 {
+#right-col .panel:nth-child(2) .panel-body h4 {
 	color: #FD6177;
 	font-weight: 700;
 }
 .symtom-imgs {
-	height: 100px;
+	height: 120px;
 }

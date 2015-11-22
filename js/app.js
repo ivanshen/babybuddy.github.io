@@ -17,7 +17,7 @@ function BBConfig($routeProvider) {
 };
 function BBController($http, $location) {
     var vm = this;
-    vm.tabs = ["FIRST MONTH","SECOND MONTH","THIRD MONTH","FOURTH MONTH","FIFTH MONTH","SIXTH MONTH","SEVENTH MONTH ","EIGHT MONTH","NINTH MONTH"];
+    vm.tabs = ["FIRST","SECOND","THIRD","FOURTH","FIFTH","SIXTH","SEVENTH ","EIGHT","NINTH"];
     $http.get('pregnancy.json').success(function(data) {
     	vm.months = data.months;
     });
