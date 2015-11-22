@@ -1,12 +1,12 @@
 {
     "months": [{
-            "symptons": [ "weakness", "dizziness", "fatigue", "depression"],
-            "cause": ["In this stage, sperm fertilize the egg. The fertilized egg attaches itself to the uterine lining. As the egg grows, the lungs, heart and spinal cord begin to develop."],
+            "symptoms": [ "Weakness", "Dizziness", "Fatigue", "Depression"],
+            "cause": "In this stage, sperm fertilize the egg. The fertilized egg attaches itself to the uterine lining. As the egg grows, the lungs, heart and spinal cord begin to develop.",
             "tips":  {
-                "food": [
+                "food": 
                 {
                     "list": ["Bean-P", "Fish-C", "Dried bean-F+", "Spinach-I", "Water-W"], 
-                    "description": "A healthy, balanced diet will make sure that you get all the nutrients you and your developing baby need. Get yourself into good eating habits at this stage in your pregnancy. Bear in mind that you don't need extra calories in your first trimester. You'll need to avoid certain foods in pregnancy, because they might contain bacteria, parasites or toxins that could harm your baby. This includes some cheeses and unpasteurised dairy products, raw or undercooked eggs, liver and pate, and raw shellfish."}],
+                    "description": "A healthy, balanced diet will make sure that you get all the nutrients you and your developing baby need. Get yourself into good eating habits at this stage in your pregnancy. Bear in mind that you don't need extra calories in your first trimester. You'll need to avoid certain foods in pregnancy, because they might contain bacteria, parasites or toxins that could harm your baby. This includes some cheeses and unpasteurised dairy products, raw or undercooked eggs, liver and pate, and raw shellfish."},
                 "do": [
                     {
                         "title": "Check before taking medicines",
@@ -27,10 +27,6 @@
                     {
                         "title": "Do gentle exercise",
                         "description": "Regular gentle exercise can help you to cope with the physical and mental demands of being pregnant. You'll also find it easier to manage your weight gain if you stay active. Read more about how exercise can help you during pregnancy and learn which exercises are best for you to do."
-                    },
-                    {
-                        "title": "",
-                        "description": ""
                     }
                     ],
                 "dont": [
@@ -51,8 +47,8 @@
             }
         },
         {
-            "symptons":[ "swelling of hands and feet", "constipation", "heartburn", "indigestion", "bloating", "heavier breasts", "goose bumps on the areola", "waistline expansion"],
-            "cause": ["The embryo begins to take the shape of a baby instead of a tadpole. By the end of of this month, the baby's all internal organs are beginning to develop"],
+            "symptoms":[ "swelling of hands and feet", "constipation", "heartburn", "indigestion", "bloating", "heavier breasts", "goose bumps on the areola", "waistline expansion"],
+            "cause": "The embryo begins to take the shape of a baby instead of a tadpole. By the end of of this month, the baby's all internal organs are beginning to develop",
             "tips": {
                 "food": [],
                 "do":[],
@@ -60,8 +56,8 @@
             }
         },
         {
-            "symptons":["less urination time", "energetic", "inability to urinate, change in sex drive"],
-            "cause": ["The embryo becomes a fetus. The face, fingers and toes are fully formed, which makes the fetus look more human. The reproductive organs are forming, but sex of the baby cannot be determined"],
+            "symptoms":["less urination time", "energetic", "inability to urinate, change in sex drive"],
+            "cause": "The embryo becomes a fetus. The face, fingers and toes are fully formed, which makes the fetus look more human. The reproductive organs are forming, but sex of the baby cannot be determined",
             "tips":  {
                 "food": [],
                 "do":[],
@@ -69,8 +65,8 @@
             }
         },
         {
-            "symptons":["change in appearance due to weight gain", "frustration","swelling and bleeding gums", "trouble sleepig", "higher blood pressure", "anemia", "nosebleeds"],
-            "cause": [],
+            "symptoms":["change in appearance due to weight gain", "frustration","swelling and bleeding gums", "trouble sleepig", "higher blood pressure", "anemia", "nosebleeds"],
+            "cause": "",
             "tips":  {
                 "food": [],
                 "do":[],
@@ -78,16 +74,16 @@
             }
         },
         {
-            "symptons":["aches in abdomen", "faintness", "leg cramps", "faster heart rate", "forgetfulness", "irregularities in body temperature"],
-            "cause": ["The baby beins to move. The skin is sensitive and may respond to sounds and light. The baby's kidneys begin to function and emit urine. The immune system of baby begins to help protect illness and infection"],
+            "symptoms":["aches in abdomen", "faintness", "leg cramps", "faster heart rate", "forgetfulness", "irregularities in body temperature"],
+            "cause": "The baby beins to move. The skin is sensitive and may respond to sounds and light. The baby's kidneys begin to function and emit urine. The immune system of baby begins to help protect illness and infection",
             "tips":  {
                 "food": ["Bean-P", "Milk-C+", "Dried bean-F", "Spinach-I", "Water-W++", "Sodium-S--"],
                 "exercise": ["Running - Be careful", "Walking - Be careful", "Swimming - Suggested"]
             }
         },
         {
-            "symptons":["pain and numbness in the hands", "clumsiness", "itchy abdomen", "rectal bleeding", ""],
-            "cause": [],
+            "symptoms":["pain and numbness in the hands", "clumsiness", "itchy abdomen", "rectal bleeding", ""],
+            "cause": "",
             "tips":  {
                 "food": [],
                 "do":[],
@@ -95,8 +91,8 @@
             }
         },
         {
-            "symptons":["cramped legs and feet", "swelling hands and feet"],
-            "cause": [],
+            "symptoms":["cramped legs and feet", "swelling hands and feet"],
+            "cause": "",
             "tips":  {
                 "food": [],
                 "do":[],
@@ -104,8 +100,8 @@
             }
         },
         {
-            "symptons":["uncomfortable", "short of breath", "tiredness", "heartburn", "indigestion", "trouble sleeping", "pelvic pressure and aches", "increasing shortness of breath"],
-            "cause": [],
+            "symptoms":["uncomfortable", "short of breath", "tiredness", "heartburn", "indigestion", "trouble sleeping", "pelvic pressure and aches", "increasing shortness of breath"],
+            "cause": "",
             "tips":  {
                 "food": [],
                 "do":[],
@@ -113,8 +109,8 @@
             }
         },
         {
-            "symptons":["frequent visit to washroom", "easier breathing", "stronger Braxton-Hicks contraction"],
-            "cause": ["The baby is almost ready to be born and turn its head down in preparation. The baby's lungs are fully developed it continues to gain weight."],
+            "symptoms":["frequent visit to washroom", "easier breathing", "stronger Braxton-Hicks contraction"],
+            "cause": "The baby is almost ready to be born and turn its head down in preparation. The baby's lungs are fully developed it continues to gain weight.",
             "tips": {
                 "food": {
                     "list": ["Bean-P+", "Milk-C++", "Dried bean-F", "Spinach-I++", "Water-W++","Sodium-S--"],
@@ -161,16 +157,6 @@
                     {
                         "title": "Avoid Stress",
                         "description": "Stress is a trigger for various problems and can be bad for both mother and baby’s health. Research has shown that babies actually experience the emotional environment of the mother. In fact, one study has also indicated that prenatal stress due to strain in relationships could also alter mental development and can make the child fearful to some extent during adulthood."
-                    },
-                    
-                    {
-                        "title": "",
-                        "description": ""
-                    },
-                    
-                    {
-                        "title": "",
-                        "description": ""
                     }
                 ]
             }

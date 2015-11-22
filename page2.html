@@ -1,0 +1,42 @@
+<div class="container-fluid content-container">
+  <div class="row">
+		<div class="col-xs-6">
+			<h1>First Month</h1>
+			<h4>Possible symptoms</h4>
+			<ul id="food-list">
+				<li ng-repeat="item in ctrl.months[8].symptoms" class="label label-default label-large">{{item}}</li>
+			</ul>
+			<h4>WHY?</h4>
+			<p>{{ctrl.months[8].cause}}</p>
+		</div>
+		<div class="col-xs-6">
+			<uib-accordion close-others="true">
+			    <uib-accordion-group heading="DOs" is-open="true">
+			    	<div class="fixed-height">
+						<ul>
+							<li ng-repeat="do in ctrl.months[8].tips.do">
+								<h4>{{do.title}}</h4>
+								{{do.description}}
+							</li>
+						</ul>
+						<h4>FOOD</h4>
+				        <p>{{ctrl.months[8].tips.food.description}}</p>
+				        <ul id="food-list">
+				        	<li ng-repeat="item in ctrl.months[8].tips.food.list" class="label label-default label-large">{{item}}</li>
+				        </ul>
+			        </div>
+			    </uib-accordion-group>
+				
+			    <uib-accordion-group heading="DON'Ts">
+			      <ul>
+			      	<li ng-repeat="dont in ctrl.months[8].tips.dont">
+			      		<h4>{{dont.title}}</h4>
+			      		{{dont.description}}
+			      	</li>
+			      </ul>
+			    </uib-accordion-group>
+			    
+			</uib-accordion>
+		</div>
+	</div>
+</div>
