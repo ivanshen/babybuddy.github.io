@@ -32,9 +32,6 @@
     
 }
 
-.ch-item a {
-	text-decoration: none; color: #F5FFFA;
-}
 /* Grid Images */
 .ch-img-1 { 
 	background-image: url(/img/month1.jpg);
@@ -112,13 +109,15 @@
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
+    color: white !important;
 }
 
 .ch-info {
 	position: absolute;
     text-align: center;
 	width: inherit;
-	height: inherit;       
+	height: inherit;
+    
 	opacity: 1;
 	
 	-webkit-transition: all 0.4s ease-in-out;
@@ -154,3 +153,4 @@ h3 {
     font-size:100%;
 	font-weight:normal;
     text-align: center;
+}
