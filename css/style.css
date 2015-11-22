@@ -1,0 +1,79 @@
+/*pink FD6177 purple 8225A4 blue 0CE8E5 yellow FFD200 light pink F9A2B5 light purple  9D71CC light blue 9af7e6 light yellow ffe780*/
+body {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	background-image: url(/img/bg.jpg);
+}
+
+.nav-pills li a {
+	border-radius: 0 !important;
+}
+
+.baby-img {
+
+}
+
+#sub-menu {
+	width: 601px;
+    margin: 0 auto;
+}
+
+#sub-menu ul {
+	color: white !important;
+}
+
+#sub-menu ul li a {
+	height: 200px;
+	width: 200px;
+	line-height: 175px;
+	font-size: 2.5em;
+	color: white !important;
+	font-weight: 700;
+}
+
+#sub-menu ul li:nth-child(1) a {
+	background-color: #FD6177;
+}
+
+#sub-menu ul li:nth-child(2) a {
+	background-color: #8225A4;
+}
+#sub-menu ul li:nth-child(3) a {
+	background-color: #0CE8E5;
+}
+
+#sub-menu ul li a:hover {
+
+}
+
+.month-detail ul {
+}
+
+#food-list {
+	display: inline-block !important;
+
+}
+#food-list li {
+	margin: 0.4em;
+}
+
+.fixed-height {
+	height: 500px;
+	overflow-y: scroll;
+}
+
+.content-container {
+	margin-top: 5em;
+}
+
+.content-container ul {
+	list-style: none;
+	padding: 0;
+}
+
+.content-container a {
+	display: block;
+}
+
+.content-container a:hover {
+	text-decoration: none;
+}

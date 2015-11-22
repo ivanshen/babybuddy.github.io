@@ -1,0 +1,150 @@
+#landing-grid {
+	text-align: center;
+}
+/* Logo */
+#logo{
+    margin-top:-45px;
+    margin-right: 10px;
+    margin-bottom: -30px;
+    width: 600px;
+    height: auto;
+    position: relative;
+}
+
+
+/* Grid Components */
+.ch-item {
+	width: 100%;
+	height: 100%;
+    
+	position: relative;
+	cursor: default;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.ch-item a {
+	text-decoration: none; color: #F5FFFA;
+}
+/* Grid Images */
+.ch-img-1 { 
+	background-image: url(/img/month1.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(/img/month2.jpg);
+    
+}
+
+.ch-img-3 { 
+	background-image: url(/img/month3.jpg);
+}
+
+.ch-img-4{
+    background-image: url(/img/month4.jpg);
+}
+
+.ch-img-5{
+    background-image: url(/img/month5.jpg);
+}
+
+.ch-img-6{
+    background-image: url(/img/month6.jpg);
+}
+
+.ch-img-7{
+    background-image: url(/img/month7.jpg);
+}
+
+.ch-img-8{
+    background-image: url(/img/month8.jpg);
+}
+
+.ch-img-9{
+    background-image: url(/img/month9.jpg);
+}
+
+/* Grid Layout */
+.main{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.ch-grid {
+	margin: 0px 0, 0, 0;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+    text-align: center
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 170px;
+	height: 170px;
+	display:inline-block;
+    float: left;
+}
+
+
+/* Hover Text */
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.ch-info {
+	position: absolute;
+    text-align: center;
+	width: inherit;
+	height: inherit;       
+	opacity: 1;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden;
+
+}
+
+.ch-info h3 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding: 70px 0 0 0;
+	height: 140px;
+	font-family: Arial, sans-serif;
+}
+
+
+
+h3 { 
+	margin:0;
+	padding:0;
+    font-size:100%;
+	font-weight:normal;
+    text-align: center;
