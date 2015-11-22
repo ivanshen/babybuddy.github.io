@@ -5,13 +5,13 @@ var gulp = require('gulp');
 
 
 gulp.task('styles', function() {
-    gulp.src('*.css')
-        .pipe(gulp.dest('./'))
+    gulp.src('./css/*.css')
+        .pipe(gulp.dest('./css'))
 });
 
 //Watch task
 gulp.task('default',function() {
-    gulp.watch('*.css',['styles']);
+    gulp.watch('./css/*.css',['styles']);
 }); 
 
 gulp.task('js', function () {
